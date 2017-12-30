@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/pri"
+   tools:context="com.example.umer.jobcentre.MainActivity"
+    >
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Create an account"
+                android:textSize="30dp"
+                android:id="@+id/textView"
+                android:textColor="#f7f7f7"
+
+                android:layout_gravity="center_horizontal" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter email"
+
+
+                android:textColorHint="#FFFFFF"
+
+
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter password"
+                android:textColorHint="#FFFFFF"
+                android:inputType="textPassword" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                />
+            <Button
+                android:id="@+id/buttonSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Sign up"
+                android:background="@color/drk"
+                android:textColor="#f7f7f7"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                />
+
+
+            <TextView
+                android:text="Already have an account?"
+                android:id="@+id/textViewSignin"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f7f7f7"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>

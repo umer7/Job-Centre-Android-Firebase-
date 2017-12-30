@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JobCentre</string>
+    <string name="send_button_label">Add</string>
+</resources>
